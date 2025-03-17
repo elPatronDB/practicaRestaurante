@@ -2,34 +2,70 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Postres - 4th Level</title>
+    <meta name="description" content="4th Level - Postres de nuestro restaurante en Guatemala.">
+    <meta name="keywords" content="postres, restaurante, gourmet, Zona 14, Guatemala, menú">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres - 4TH LEVEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css"> <!-- Enlace al style.css en la raíz -->
 </head>
 <body>
-    <header>
-        <h1>POSTRES</h1>
-        <ul>
-            <h3><a href="../index.html">Regresar</a></h3>
-        </ul>
-    </header>
-    <div>
-        <h2>Tarta de Chocolate</h2>
-            <img src="https://media.istockphoto.com/id/1370520449/es/foto/rebanada-de-pastel-de-chocolate-con-glaseado.jpg?s=612x612&w=0&k=20&c=LvnbdEqWXwitC4utYXHtI_UBTZA_JuqmGL13c0Bm6fA=" alt="Tarta de Chocolate" width="200">
-            <p>Deliciosa tarta de chocolate con un toque de frambuesa. Precio: Q85.</p>
-    </div>
-    <div>
-        <h2>Cheesecake de Frutos Rojos</h2>
-            <img src="https://media.istockphoto.com/id/589101300/es/foto/cheesecake-con-bayas-frescas.jpg?s=612x612&w=0&k=20&c=mwiZKRs1DDNplFdhFCxdBJ-05TtrXOTRFUds3_SkZPU=" alt="Cheesecake" width="200">
-            <p>Suave cheesecake con coulis de frutos rojos. Precio: Q75.</p>
-    </div>
-    <div>
-        <h2>Profiteroles</h2>
-            <img src="https://media.istockphoto.com/id/936436176/es/foto/profiteroles-con-salsa-de-crema-y-chocolate-fondo-oscuro.jpg?s=612x612&w=0&k=20&c=fR2wfdincrjL4pcPG0nvMm_iihgcHqnqS9rMzqfgwqA=" alt="Profiteroles" width="200">
-            <p>Profiteroles rellenos de crema y bañados en chocolate. Precio: Q65.</p>
-    </div>
-    <div>
-        <h2>Tiramisú</h2>
-            <img src="https://media.istockphoto.com/id/1248489319/es/foto/pastel-tiramis%C3%BA-con-menta.jpg?s=612x612&w=0&k=20&c=sPrndjNK3YHHjr_VrtG8eP4Z7nuJdRZPn8h-lejlxIc=" alt="Tiramisú" width="200">
-            <p>Clásico tiramisú italiano con café y cacao. Precio: Q70.</p>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="/imagenes/logo.jpg" alt="Logo de 4TH LEVEL" class="me-2" style="height: 40px;">
+                <span>4TH LEVEL</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="postres.html" class="nav-link active">Postres</a></li>
+                    <li class="nav-item"><a href="platos-fuertes.html" class="nav-link">Platos Fuertes</a></li>
+                    <li class="nav-item"><a href="../personal/personal.html" class="nav-link">Personal</a></li>
+                    <li class="nav-item"><a href="../resenias/resenias.html" class="nav-link">Reseñas</a></li>
+                    <li class="nav-item"><a href="../recetas/recetas-dulces.html" class="nav-link">Recetas Dulces</a></li>
+                    <li class="nav-item"><a href="../recetas/recetas-saladas.html" class="nav-link">Recetas Saladas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="text-center mb-4">Postres</h1>
+        <div class="row g-4">
+            <div class="col-md-6 dish-card">
+                <h2>Tarta de Chocolate</h2>
+                <img src="https://media.istockphoto.com/id/1370520449/es/foto/rebanada-de-pastel-de-chocolate-con-glaseado.jpg?s=612x612&w=0&k=20&c=LvnbdEqWXwitC4utYXHtI_UBTZA_JuqmGL13c0Bm6fA=" alt="Tarta de Chocolate" class="img-fluid rounded">
+                <p>Deliciosa tarta de chocolate con un toque de frambuesa. <strong>Precio: Q85</strong></p>
+            </div>
+            <div class="col-md-6 dish-card">
+                <h2>Cheesecake de Frutos Rojos</h2>
+                <img src="https://media.istockphoto.com/id/589101300/es/foto/cheesecake-con-bayas-frescas.jpg?s=612x612&w=0&k=20&c=mwiZKRs1DDNplFdhFCxdBJ-05TtrXOTRFUds3_SkZPU=" alt="Cheesecake" class="img-fluid rounded">
+                <p>Suave cheesecake con coulis de frutos rojos. <strong>Precio: Q75</strong></p>
+            </div>
+            <div class="col-md-6 dish-card">
+                <h2>Profiteroles</h2>
+                <img src="https://media.istockphoto.com/id/936436176/es/foto/profiteroles-con-salsa-de-crema-y-chocolate-fondo-oscuro.jpg?s=612x612&w=0&k=20&c=fR2wfdincrjL4pcPG0nvMm_iihgcHqnqS9rMzqfgwqA=" alt="Profiteroles" class="img-fluid rounded">
+                <p>Profiteroles rellenos de crema y bañados en chocolate. <strong>Precio: Q65</strong></p>
+            </div>
+            <div class="col-md-6 dish-card">
+                <h2>Tiramisú</h2>
+                <img src="https://media.istockphoto.com/id/1248489319/es/foto/pastel-tiramis%C3%BA-con-menta.jpg?s=612x612&w=0&k=20&c=sPrndjNK3YHHjr_VrtG8eP4Z7nuJdRZPn8h-lejlxIc=" alt="Tiramisú" class="img-fluid rounded">
+                <p>Clásico tiramisú italiano con café y cacao. <strong>Precio: Q70</strong></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="text-center mt-3">
+                <p class="mb-0">© 2025 4TH LEVEL. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,39 +4,65 @@
     <meta charset="UTF-8">
     <meta name="description" content="4th Level - Un restaurante fancy en Guatemala.">
     <meta name="keywords" content="restaurante, comida gourmet, Zona 14, Guatemala, elegancia, fancy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4TH LEVEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <table >
-            <tr>
-                <h1>4TH LEVEL</h1>
-            </tr>
-            <nav>
-                <ul>
-                    <li><a href="../menu/postres.html">Postres</a></li>
-                    <li><a href="../menu/platos-fuertes.html">Platos Fuertes</a></li>
-                    <li><a href="../personal/personal.html">Personal</a></li>
-                    <li><a href="../resenias/resenias.html">Reseñas</a></li>
-                    <li><a href="../recetas/recetas-dulces.html">Recetas Dulces</a></li>
-                    <li><a href="../recetas/recetas-saladas.html">Recetas Saladas</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="/imagenes/logo.jpg" alt="Logo de 4TH LEVEL" class="me-2" style="height: 40px;">
+                <span>4TH LEVEL</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav-flex navbar-nav ms-auto">
+                    <li class="nav-item"><a href="../menu/postres.html" class="nav-link">Postres</a></li>
+                    <li class="nav-item"><a href="../menu/platos-fuertes.html" class="nav-link">Platos Fuertes</a></li>
+                    <li class="nav-item"><a href="../personal/personal.html" class="nav-link">Personal</a></li>
+                    <li class="nav-item"><a href="../resenias/resenias.html" class="nav-link">Reseñas</a></li>
+                    <li class="nav-item"><a href="../recetas/recetas-dulces.html" class="nav-link">Recetas Dulces</a></li>
+                    <li class="nav-item"><a href="../recetas/recetas-saladas.html" class="nav-link">Recetas Saladas</a></li>
                 </ul>
-            </nav>
-            <br />
-            <h2>MISIÓN:</h2>
-            <h3>Ofrecer una experiencia culinaria única con los más altos estándares de calidad y servicio.</h3>
-            <br>
-            <h2>VISIÓN:</h2>
-            <h3> El restaurante más exclusivo de Guatemala, reconocido internacionalmente.</h3>
-        </table>    
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-content">
+            <div class="mission">
+                <h3>Misión</h3>
+                <p class="description">Ofrecer una experiencia culinaria única con los más altos estándares de calidad y servicio.</p>
+            </div>
+            <div class="vision">
+                <h3>Visión</h3>
+                <p class="description">Ser el restaurante más exclusivo de Guatemala, reconocido internacionalmente.</p>
+            </div>
+        </div>
     </header>
-    <div>
-        <h2>Ven a disfrutar la experiencia de 4TH LEVEL</h2>
-        <img src="https://media.istockphoto.com/id/1411971240/es/foto/copa-de-vino-y-champain-en-bodas-y-eventos-de-lujo.jpg?s=612x612&w=0&k=20&c=u_hEm_WfnmQtfl9SCsaJ8zNI0BXpj_hCOSt-pd6ezFU=" alt="Vista del restaurante" width="300">
-        <img src="https://media.istockphoto.com/id/967708462/es/foto/elegante-cena.jpg?s=612x612&w=0&k=20&c=q3a39C-8USMpDMYVy_apR20QyK2GTjE2xPam2FhaPSs=" alt="Ambiente elegante" width="300">
-        <img src="https://media.istockphoto.com/id/967708462/es/foto/elegante-cena.jpg?s=612x612&w=0&k=20&c=q3a39C-8USMpDMYVy_apR20QyK2GTjE2xPam2FhaPSs=" alt="Comida gourmet" width="300">
-        <img src="https://media.istockphoto.com/id/1472804671/es/foto/porci%C3%B3n-del-delicioso-aperitivo-de-lujo.jpg?s=612x612&w=0&k=20&c=8XBozmE-6G8IYiAk_tNT-02Vv7KZlARcdAcVdsSY96o=" alt="Barra de vinos" width="300">
-    </div>
-
+    <section class="gallery container py-4">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/id/1411971240/es/foto/copa-de-vino-y-champain-en-bodas-y-eventos-de-lujo.jpg?s=612x612&w=0&k=20&c=u_hEm_WfnmQtfl9SCsaJ8zNI0BXpj_hCOSt-pd6ezFU=" alt="Vista del restaurante" class="img-fluid gallery-img">
+            </div>
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/id/967708462/es/foto/elegante-cena.jpg?s=612x612&w=0&k=20&c=q3a39C-8USMpDMYVy_apR20QyK2GTjE2xPam2FhaPSs=" alt="Ambiente elegante" class="img-fluid gallery-img">
+            </div>
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/id/1472804671/es/foto/porci%C3%B3n-del-delicioso-aperitivo-de-lujo.jpg?s=612x612&w=0&k=20&c=8XBozmE-6G8IYiAk_tNT-02Vv7KZlARcdAcVdsSY96o=" alt="Comida gourmet" class="img-fluid gallery-img">
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-4 footer-fixed">
+        <div class="container">
+            <div class="text-center mt-3">
+                <p class="mb-0">© 2025 4TH LEVEL. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
