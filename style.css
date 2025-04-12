@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +8,6 @@ body {
     flex-direction: column;
 }
 
-/* Estilos para el header con Flexbox (de index.html) */
 .header {
     background-color: #212529;
     color: white;
@@ -56,7 +55,6 @@ body {
     display: block;
 }
 
-/* Estilos adicionales para la galería (de index.html y personal.html) */
 .gallery-img {
     height: 250px;
     object-fit: cover;
@@ -64,7 +62,6 @@ body {
     width: 100%;
 }
 
-/* Estilos para las reseñas (de resenias.html) */
 .review-card {
     background-color: #f8f9fa;
     padding: 20px;
@@ -90,7 +87,6 @@ body {
     font-size: 1rem;
 }
 
-/* Estilos para las recetas (de recetas-dulces.html y recetas-saladas.html) */
 .recipe-card {
     background-color: #fff;
     padding: 20px;
@@ -126,7 +122,6 @@ body {
     color: #495057;
 }
 
-/* Estilos para los platos fuertes */
 .dish-card {
     background-color: #fff;
     padding: 20px;
@@ -157,17 +152,14 @@ body {
     font-weight: bold;
 }
 
-/* Estilos para el footer (no fijo) */
 .footer-fixed {
     width: 100%;
 }
 
-/* Ajuste para que el contenido principal crezca */
 main {
     flex: 1 0 auto;
 }
 
-/* Media queries para responsividad */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
